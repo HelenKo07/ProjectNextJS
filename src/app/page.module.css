@@ -1,0 +1,30 @@
+.main {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+    font-family: sans-serif;
+}
+
+.main.dark {
+    background-color: #000000;
+}
+
+.lessons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.name {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333333;
+}
+
+.title {
+    font-size: 1.5rem;
+    color: #666666;
+}

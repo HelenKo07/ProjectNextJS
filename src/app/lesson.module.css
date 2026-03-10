@@ -1,0 +1,46 @@
+.name {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333333;
+}
+
+.buttonLike {
+    margin-left: 20px;
+    border: 1px solid #333333;
+    border-radius: 10%;
+    padding: 6px;
+}
+
+.buttonLike:hover {
+    border-color: aqua;
+}
+
+.buttonLike:focus {
+    background-color: rgb(28, 188, 227);
+}
+
+.buttonDis {
+    margin-left: 20px;
+    border: 1px solid #333333;
+    border-radius: 10%;
+    padding: 6px;
+}
+
+.buttonDis:hover {
+    border-color: rgb(224, 11, 11) ;
+}
+
+.buttonDis:focus {
+    background-color: rgb(200, 43, 26);
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: #111111;
+}
+
+.points {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  color: #0f0d0d;
+}

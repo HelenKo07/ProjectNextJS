@@ -1,30 +1,43 @@
 .main {
-    display: flex;
-    min-height: 100vh;
-    justify-content: center;
-    align-items: center;
-    background-color: #f8f8f8;
-    font-family: sans-serif;
+  padding: 100px;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8f8;
+  font-family: sans-serif;
 }
 
 .main.dark {
-    background-color: #000000;
-}
-
-.lessons {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-}
-
-.name {
-    font-size: 2rem;
-    font-weight: bold;
-    color: #333333;
+  background-color: #000000;
 }
 
 .title {
-    font-size: 1.5rem;
-    color: #666666;
+  display: flex;
+  text-align: center;
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 3rem;
+  color: #333333;
 }
+
+.lessons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  gap: 1rem;
+}
+
+.lesson {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+}
+
+
